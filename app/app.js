@@ -6,11 +6,11 @@ const app = express();
 
 
 // 라우터
-const home = require("./routes/home/index");
+const home = require("./src/routes/home/index");
 
 
 // 앱 세팅
-app.set("views", "./views");
+app.set("views", "./src/views");
 app.set("view engine", "ejs");
 
 // 특정 경로에 대한 라우팅 기능은 routes/home의 index.js에서 한다.
