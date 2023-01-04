@@ -5,7 +5,7 @@ const main = (req, res) => {
 };
 
 const login = (req, res) => {
-  res.render("../views/home/login");
+  res.render("home/login");
 }
 
 module.exports = {

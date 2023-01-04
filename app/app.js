@@ -6,7 +6,7 @@ const app = express();
 
 
 // 라우터
-const home = require("./src/routes/home/index");
+const home = require("./src/routes/home");
 
 
 // 앱 세팅
