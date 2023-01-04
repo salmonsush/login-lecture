@@ -12,7 +12,7 @@ const home = require("./src/routes/home/index");
 // 앱 세팅
 app.set("views", "./src/views");
 app.set("view engine", "ejs");
-
+app.use(express.static(`${__dirname}/src/public`));
 // 특정 경로에 대한 라우팅 기능은 routes/home의 index.js에서 한다.
 // 뷰에 관한 코드는 views/home의 각 페이지 이름.ejs로 갔다.
 
