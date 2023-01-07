@@ -13,7 +13,7 @@ Repository
 │   |   └───public
 │   |   |   └───js
 │   |   |       └───home
-│   |   |           └───login.js // 맨 마지막에 만든 문서이다. html과 연계되서 동작하는 파일. login.ejs와 연계된다. <script src="/js/home/login.js" defer> 라는 이름으로 불리기 위해 app.js에 미들웨어를 추가로 등록해준다. 로그인 창에서 써진 값들을 제어하기 위한 모듈이다. 
+│   |   |           └───login.js // 로그인 페이지와 연동하는 클라이언트부. 맨 마지막에 만든 문서이다. html과 연계되서 동작하는 파일. login.ejs와 연계된다. <script src="/js/home/login.js" defer> 라는 이름으로 불리기 위해 app.js에 미들웨어를 추가로 등록해준다. 로그인 창에서 써진 값들을 제어하기 위한 모듈이다. 
 │   |   |       
 │   |   └───routes // 클라이언트로부터 서버로 http 요청이 오면, 요청에 알맞는 문서로 라우팅 해주는 것.
 │   |   |   └───home
