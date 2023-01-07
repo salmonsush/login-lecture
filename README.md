@@ -3,6 +3,7 @@
 
 서버를 실행시키는 방법 : www.js를 실행해주는 원리. 그런데, package.json에서 명령어를 설정하였기에, npm start라고 명령어를 쳐주면 된다.
 
+<code>
 Repository
 └───app
 │   └───bin
@@ -28,3 +29,4 @@ Repository
 |   └───package-lock.json
 |   └───package.json // npm에 등록하거나, github에 올릴 때 어느 컴퓨터에서나 이 프로그램이 원할히 동작하도록 하는 기본 정보와 의존성패키지, 명령어를 모아놓은 파일.
 // package.json의 각 key값이 하는 역할을 알면 좋다.
+</code>
