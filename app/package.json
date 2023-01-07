@@ -9,7 +9,7 @@
   "version": "1.0.0",
   "main": "app.js",
   "bin": {
-    "login-lecture": "bin/www.js" // 실행파일
+    "login-lecture": "bin/www.js"
   },
   "scripts": {
     "start": "nodemon ./bin/www.js",

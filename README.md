@@ -1,7 +1,7 @@
 # login-lecture
 백엔드 맛보기 강의
 
-서버를 실행시키는 방법 : www.js를 실행해주는 원리. 그런데, package.json에서 명령어를 설정하였기에, npm start라고 명령어를 쳐주면 된다.
+서버를 실행시키는 방법 : www.js를 실행해주는 원리. 그런데, package.json에서 명령어를 설정하였기에, nodemon start라고 명령어를 login-lecture/app 위치에서 쳐주면 실행된다.
 
 Repository
 └───app
@@ -11,7 +11,8 @@ Repository
 │   └───src
 │   |   └───public
 │   |   |   └───js
-│   |   |       └───login.js // 맨 마지막에 만든 문서이다.
+│   |   |       └───home
+│   |   |           └───login.js // 맨 마지막에 만든 문서이다. html과 연계되서 동작하는 파일. login.ejs와 연계된다. <script src="/js/home/login.js" defer> 라는 이름으로 불리기 위해 app.js에 미들웨어를 추가로 등록해준다. 로그인 창에서 써진 값들을 제어하기 위한 모듈이다.
 │   |   |       
 │   |   └───routes // 클라이언트로부터 서버로 http 요청이 오면, 요청에 알맞는 문서로 라우팅 해주는 것.
 │   |   |   └───home
