@@ -10,7 +10,7 @@ const ctrl = require("./home.ctrl")
 router.get("/", ctrl.output.main);
 
 router.get("/login", ctrl.output.login);
-router.post("/login", ctrl.process.login);
+router.post("/login", ctrl.process.login); // login.js(클라이언트)에서의 요청(POST, /login경로, json데이터)를 받는 서버의 api. 기능은 컨트롤러에 위임.
 
 // app.js와 index.js를 연결해주는 코드
 module.exports = router;
